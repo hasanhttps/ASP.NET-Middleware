@@ -1,5 +1,4 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using ASP.NET_Middleware.Middlewares.Abstracts;
 
 namespace ASP.NET_Middleware.Middlewares.Concretes;

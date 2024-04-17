@@ -12,3 +12,4 @@ C:\Users\hasan\source\repos\ASP.NET Middleware\ASP.NET Middleware\obj\Debug\net6
 C:\Users\hasan\source\repos\ASP.NET Middleware\ASP.NET Middleware\obj\Debug\net6.0\ASP.NET Middleware.pdb
 C:\Users\hasan\source\repos\ASP.NET Middleware\ASP.NET Middleware\obj\Debug\net6.0\ASP.NET Middleware.genruntimeconfig.cache
 C:\Users\hasan\source\repos\ASP.NET Middleware\ASP.NET Middleware\obj\Debug\net6.0\ref\ASP.NET Middleware.dll
+C:\Users\hasan\source\repos\ASP.NET Middleware\ASP.NET Middleware\obj\Debug\net6.0\ASP.NET Middleware.sourcelink.json

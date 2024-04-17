@@ -1,5 +1,4 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using ASP.NET_Middleware.Hosts.Abstracts;
 using ASP.NET_Middleware.Middlewares.Abstracts;
 using ASP.NET_Middleware.Middlewares.Concretes;
@@ -23,7 +22,6 @@ public class WebHost {
         _listener.Prefixes.Add($"http://localhost:{_port}/");
     }
 
-
     // Methods
 
     public void UseStartup<T>() where T : IStartup, new() { // new() objecti yaradila bilen demekdir. Abstract classlara icaze vermir.
@@ -41,7 +39,7 @@ public class WebHost {
             var context = _listener.GetContext();
             Task.Run(() => {
                 _requestHandler.Invoke(context);
-                context.Response.Close();
+                //context.Response.Close();
             });
         }
     }
